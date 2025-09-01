@@ -1,0 +1,20 @@
+
+# Ignore database files
+AlphaFin/database/*
+*.db
+*.sqlite
+
+# Ignore model weights
+alphafin_model_data/*
+*.bin
+*.pt
+*.ckpt
+*.h5
+
+# Ignore notebook checkpoints & cache
+.ipynb_checkpoints/
+__pycache__/
+*.log
+
+# Ignore Google Drive mount folder
+drive/
