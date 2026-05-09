@@ -14,17 +14,18 @@ Large files (databases, model weights) are excluded and must be downloaded at ru
 
 📌 *Unlocking the Potential of a Financial Forecasting Benchmark: Data-Enriched Prediction with Retrieval-Augmented Language Models*
 
-<img width="1432" height="1059" alt="AlphaFin_Structure" src="https://github.com/user-attachments/assets/9512fb57-432f-48e3-a25a-7e7d8b02fedb" />
+
 This project focused on enhancing the AlphaFin financial forecasting benchmark using Retrieval-Augmented Generation (RAG), financial LLM adaptation, and quantitative backtesting.
 
 Instead of building a new benchmark from scratch, I re-engineered and improved the existing AlphaFin pipeline while preserving its original datasets and evaluation framework for fair comparison and reproducibility.
-<img width="8190" height="3765" alt="AlphaFin_Graph-Pipeline" src="https://github.com/user-attachments/assets/873c9ef9-bac6-4d41-b809-ff52635e12f6" />
 
+<img width="1432" height="1059" alt="AlphaFin_Structure" src="https://github.com/user-attachments/assets/9512fb57-432f-48e3-a25a-7e7d8b02fedb" />
+<img width="8190" height="3765" alt="AlphaFin_Graph-Pipeline" src="https://github.com/user-attachments/assets/873c9ef9-bac6-4d41-b809-ff52635e12f6" />
 
 🔹 Main Contributions
 
 🔹 Designed and implemented a financial RAG framework (RQ1)
-<img width="10140" height="4266" alt="AlphaFin_Graph-RAG" src="https://github.com/user-attachments/assets/3be8afe0-3bb2-4250-94c0-a873af1b0ff5" />
+
 
 • Built a Retrieval-Augmented Generation pipeline integrating:
 
@@ -33,6 +34,7 @@ Instead of building a new benchmark from scratch, I re-engineered and improved t
 * earnings guidance
 * audit reports
 * financial forecasts
+<img width="10140" height="4266" alt="AlphaFin_Graph-RAG" src="https://github.com/user-attachments/assets/3be8afe0-3bb2-4250-94c0-a873af1b0ff5" />
 
 • Implemented:
 
