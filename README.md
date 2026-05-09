@@ -49,7 +49,6 @@ Instead of building a new benchmark from scratch, I re-engineered and improved t
 • Redesigned prompt engineering workflows by injecting structured financial evidence directly into LLM reasoning.
 
 📈 Results:
-<img width="1004" height="531" alt="image" src="https://github.com/user-attachments/assets/00c69847-8e9c-44cb-88be-6c7724a95a93" />
 <img width="727" height="519" alt="image" src="https://github.com/user-attachments/assets/e4158132-dbe8-47d3-a70e-5ac0ced30f90" />
 
 • ARR improved from 13.8% → 25.8%
@@ -59,6 +58,7 @@ Instead of building a new benchmark from scratch, I re-engineered and improved t
 • Directional Accuracy improved from 52.33% → 55.07%
 
 The experiments showed that RAG improves not only prediction accuracy, but also interpretability and portfolio-level trading robustness.
+<img width="1004" height="531" alt="image" src="https://github.com/user-attachments/assets/00c69847-8e9c-44cb-88be-6c7724a95a93" />
 
 🔹 Conducted LoRA vs LoRI fine-tuning research (RQ2)
 <img width="1028" height="531" alt="image" src="https://github.com/user-attachments/assets/3465af6f-0071-4986-aba7-e10944262eb8" />
