@@ -21,6 +21,7 @@ Instead of building a new benchmark from scratch, I re-engineered and improved t
 
 <img width="1432" height="1059" alt="AlphaFin_Structure" src="https://github.com/user-attachments/assets/9512fb57-432f-48e3-a25a-7e7d8b02fedb" />
 <img width="8190" height="3765" alt="AlphaFin_Graph-Pipeline" src="https://github.com/user-attachments/assets/873c9ef9-bac6-4d41-b809-ff52635e12f6" />
+<img width="1802" height="2688" alt="AlphaFin_Graph-Datasets0" src="https://github.com/user-attachments/assets/14b9f9a4-5b5c-4944-9c7c-51f9a8aa8dcb" />
 
 🔹 Main Contributions
 
@@ -50,7 +51,9 @@ Instead of building a new benchmark from scratch, I re-engineered and improved t
 <img width="1004" height="531" alt="image" src="https://github.com/user-attachments/assets/00c69847-8e9c-44cb-88be-6c7724a95a93" />
 
 • ARR improved from 13.8% → 25.8%
+
 • Sharpe Ratio improved from 0.67 → 1.20
+
 • Directional Accuracy improved from 52.33% → 55.07%
 
 The experiments showed that RAG improves not only prediction accuracy, but also interpretability and portfolio-level trading robustness.
