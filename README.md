@@ -61,21 +61,19 @@ The experiments showed that RAG improves not only prediction accuracy, but also 
 <img width="1004" height="531" alt="image" src="https://github.com/user-attachments/assets/00c69847-8e9c-44cb-88be-6c7724a95a93" />
 
 🔹 Conducted LoRA vs LoRI fine-tuning research (RQ2)
-<img width="1028" height="531" alt="image" src="https://github.com/user-attachments/assets/3465af6f-0071-4986-aba7-e10944262eb8" />
 
 • Replaced the original StockGPT adapter with FinGPT-6B on ChatGLM2-6B.
 
 • Implemented and compared:
-
 * LoRA
 * LoRI (LoRA with Reduced Interference)
 
 • Evaluated:
-
 * training efficiency
 * GPU memory usage
 * convergence behavior
 * financial backtesting performance
+<img width="1028" height="531" alt="image" src="https://github.com/user-attachments/assets/3465af6f-0071-4986-aba7-e10944262eb8" />
 
 🔍 Key Finding:
 LoRI reduced training overhead while maintaining competitive forecasting performance, showing strong potential for scalable multi-task financial NLP systems.
