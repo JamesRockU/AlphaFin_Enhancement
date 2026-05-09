@@ -10,6 +10,7 @@ This project extends the AlphaFin framework for financial forecasting by integra
 Large files (databases, model weights) are excluded and must be downloaded at runtime.
 
 
+
 💼 Financial Forecasting with RAG-Enhanced LLMs
 
 📌 *Unlocking the Potential of a Financial Forecasting Benchmark: Data-Enriched Prediction with Retrieval-Augmented Language Models*
