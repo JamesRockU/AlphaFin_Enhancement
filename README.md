@@ -1,4 +1,3 @@
-<img width="337" height="141" alt="image" src="https://github.com/user-attachments/assets/844edb9d-341a-4b9c-a3f2-39fab2aca5ab" />
 # AlphaFin Enhancement
 
 ## Overview
@@ -15,13 +14,18 @@ Large files (databases, model weights) are excluded and must be downloaded at ru
 
 📌 *Unlocking the Potential of a Financial Forecasting Benchmark: Data-Enriched Prediction with Retrieval-Augmented Language Models*
 
+<img width="1432" height="1059" alt="AlphaFin_Structure" src="https://github.com/user-attachments/assets/9512fb57-432f-48e3-a25a-7e7d8b02fedb" />
 This project focused on enhancing the AlphaFin financial forecasting benchmark using Retrieval-Augmented Generation (RAG), financial LLM adaptation, and quantitative backtesting.
 
 Instead of building a new benchmark from scratch, I re-engineered and improved the existing AlphaFin pipeline while preserving its original datasets and evaluation framework for fair comparison and reproducibility.
+<img width="8190" height="3765" alt="AlphaFin_Graph-Pipeline" src="https://github.com/user-attachments/assets/873c9ef9-bac6-4d41-b809-ff52635e12f6" />
+
 
 🔹 Main Contributions
 
 🔹 Designed and implemented a financial RAG framework (RQ1)
+<img width="10140" height="4266" alt="AlphaFin_Graph-RAG" src="https://github.com/user-attachments/assets/3be8afe0-3bb2-4250-94c0-a873af1b0ff5" />
+
 • Built a Retrieval-Augmented Generation pipeline integrating:
 
 * TuShare market data
@@ -41,6 +45,8 @@ Instead of building a new benchmark from scratch, I re-engineered and improved t
 • Redesigned prompt engineering workflows by injecting structured financial evidence directly into LLM reasoning.
 
 📈 Results:
+<img width="1004" height="531" alt="image" src="https://github.com/user-attachments/assets/00c69847-8e9c-44cb-88be-6c7724a95a93" />
+
 • ARR improved from 13.8% → 25.8%
 • Sharpe Ratio improved from 0.67 → 1.20
 • Directional Accuracy improved from 52.33% → 55.07%
@@ -48,6 +54,8 @@ Instead of building a new benchmark from scratch, I re-engineered and improved t
 The experiments showed that RAG improves not only prediction accuracy, but also interpretability and portfolio-level trading robustness.
 
 🔹 Conducted LoRA vs LoRI fine-tuning research (RQ2)
+<img width="1028" height="531" alt="image" src="https://github.com/user-attachments/assets/3465af6f-0071-4986-aba7-e10944262eb8" />
+
 • Replaced the original StockGPT adapter with FinGPT-6B on ChatGLM2-6B.
 
 • Implemented and compared:
@@ -89,6 +97,5 @@ may produce more robust financial forecasting systems.
 
 🛠 Tech Stack
 Python, PyTorch, Hugging Face Transformers, PEFT, LoRA, LoRI, RAG, FinGPT, ChatGLM2-6B, Financial NLP, Quantitative Backtesting, TuShare, CNINFO
-<img width="1432" height="1059" alt="AlphaFin_Structure" src="https://github.com/user-attachments/assets/9512fb57-432f-48e3-a25a-7e7d8b02fedb" />
 
 
