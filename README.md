@@ -1,4 +1,4 @@
-
+<img width="337" height="141" alt="image" src="https://github.com/user-attachments/assets/844edb9d-341a-4b9c-a3f2-39fab2aca5ab" />
 # AlphaFin Enhancement
 
 ## Overview
@@ -89,4 +89,6 @@ may produce more robust financial forecasting systems.
 
 🛠 Tech Stack
 Python, PyTorch, Hugging Face Transformers, PEFT, LoRA, LoRI, RAG, FinGPT, ChatGLM2-6B, Financial NLP, Quantitative Backtesting, TuShare, CNINFO
+<img width="1432" height="1059" alt="AlphaFin_Structure" src="https://github.com/user-attachments/assets/9512fb57-432f-48e3-a25a-7e7d8b02fedb" />
+
 
